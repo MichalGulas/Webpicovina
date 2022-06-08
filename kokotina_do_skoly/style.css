@@ -1,0 +1,86 @@
+body{
+  background-image: url(family-jogging-royalty-free-image-1595451217.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: coral;
+  box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+  position: relative;
+}
+
+.topnav {
+  margin-right: auto;
+  margin-left: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.topnav a {
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  transition: ease-in-out .2s;
+}
+
+.topnav a.active{
+  background-color: rgb(240, 118, 74);
+  font-weight: bolder;
+}
+
+.topnav a:hover {
+  background-color: rgb(240, 118, 74);
+}
+
+.main {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-rows: minmax(100px auto);
+  grid-gap: 75px;
+  justify-items: stretch;
+  align-items: start;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+
+  border-radius: 10px;
+  width: 75%;
+
+  text-align: center;
+}
+.main div{
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(240, 118, 74);
+  color: white;
+}
+/*
+main h1 {
+  background-color: rgb(243, 243, 243);
+  border-radius: 10px 10px 0 0;
+  padding: 12px;
+}
+
+main p {
+  padding-right: 75px;
+  padding-left: 75px;
+  padding-bottom: 25px;
+}
+*/
+main h1 {
+  margin: 0;
+}
